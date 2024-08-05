@@ -9,21 +9,21 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	<form>
+	<form action = "Dog-Adoption-Application" method = "post">
 		<label for = name>Name</label>
-		<input type = "text" id = name placeholder=Name><br><br>
+		<input type = "text" id = name placeholder=Name required><br><br>
 		<label for = phone>PhoneNumber</label>
-		<input type = "text" id = phone placeholder = PhoneNumber><br><br>
+		<input type = "text" id = phone placeholder = PhoneNumber required><br><br>
 		<label for = address>Address</label>
-		<input type = "text" id = address placeholder = Address><br><br>
+		<input type = "text" id = address placeholder = Address required><br><br>
 		<label for = checkbox></label>Have you ever lived with a Dog before?
-		<input type = "checkbox" id = checkbox><br><br>
+		<input type = "checkbox" id = checkbox required><br><br>
 		<label for = multiSelect>Please Select Your preferred breeds</label>
 		<select id = multiSelect>
-			<option>Select Breeds</option>
-			<option>BullDog</option>
-			<option>Reitwailer</option>
-			<option>Labradour</option>
+			<option value = "German Shepherd">German Shepherd</option>
+			<option value = "BullDog">BullDog</option>
+			<option value = "Reitwailer">Reitwailer</option>
+			<option value = "Labradour">Labradour</option>
 		</select><br><br>
 		<input type = "submit" id = submit value = Submit>
 	</form>
